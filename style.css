@@ -141,13 +141,13 @@ span.smaller {
 
 footer {
   background-color: #24292E;
-  height: 50px;
+  height: 60px;
   color: white;
   text-align: center;
 }
 
 footer p {
-  padding-top: 13px;
+  padding-top: 9px;
 }
 
 @media screen and (max-device-width: 700px) {
