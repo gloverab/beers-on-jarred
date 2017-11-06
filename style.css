@@ -1,14 +1,22 @@
-/*.navbar-default {
-  background-color: #fce4ec;
+.navbar-default {
+  background-color: #24292E;
 }
 
 .navbar-default .navbar-header a {
-  color: #5d4037;
+  color: #C2C4C5;
 }
 
 .navbar-default .navbar-nav li a {
-  color: #5d4037;
-}*/
+  color: #C2C4C5;
+}
+
+.navbar-default .navbar-header a:hover {
+  color: white;
+}
+
+.navbar-default .navbar-nav li a:hover {
+  color: white;
+}
 
 .hero-photo {
   position: relative;
@@ -42,16 +50,46 @@ img#hero-image {
 }
 
 .info-block {
-  background-color: black;
-  color: grey;
+  background-color: #24292E;
+  color: white;
 }
 
-#evidence {
-  padding: 20px;
+.info-block .row {
+  padding: 35px;
+  border-bottom: 1px solid grey;
+}
+
+.info-block .about-picture-wrapper {
+  width: 100%;
+  text-align: center;
+}
+
+.info-block a {
+  color: #5EA981;
+}
+
+.info-block a:hover {
+  color: white;
+}
+
+a.light-green {
+  background-color: #5BAA80;
+  color: white;
+  transition: all 0.2s ease;
+}
+
+a.light-green:hover {
+  background-color: #2C6343;
+}
+
+.info-block img {
+  height: 300px;
+  position: relative;
+  margin: 0 auto;
 }
 
 #game {
-  background-color: #b4b2eb;
+  background-color: #C5BEBB;
   padding: 1%;
 }
 
@@ -59,6 +97,18 @@ img#hero-image {
   margin: 0 auto;
   position: relative;
   width: 270px;
+  margin-bottom: 15px;
+}
+
+#game button.btn {
+  background-color: #5BAA80;
+  color: white;
+  transition: all 0.1s ease;
+  margin-bottom: 10px;
+}
+
+#game button.btn:hover {
+  background-color: #2C6343;
 }
 
 #beers-container {
@@ -83,4 +133,41 @@ span.smaller {
 
 .beer {
   display: inline-block;
+}
+
+#evidence {
+  padding: 20px;
+}
+
+footer {
+  background-color: #24292E;
+  height: 50px;
+  color: white;
+  text-align: center;
+}
+
+footer p {
+  padding-top: 13px;
+}
+
+@media screen and (max-device-width: 700px) {
+  .hero-text-wrapper {
+    display: none;
+  }
+
+  #about {
+    text-align: center;
+  }
+
+  #about h2 {
+    margin-bottom: 0;
+  }
+
+  #about a {
+    margin-bottom: 15px;
+  }
+
+  .mobile-shrink {
+    max-height: 200px;
+  }
 }
