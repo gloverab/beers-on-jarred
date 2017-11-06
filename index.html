@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Beers on Jarred</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <script src="index.js"></script>
+  </head>
+
+  <body>
+    <nav class="nav navbar-default">
+      <div class="container">
+
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Beers on Jarred&trade; dot com</a>
+          </div>
+
+
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#about">What is this site?</a></li>
+              <li><a href="#jarred">Who is Jarred?</a></li>
+              <li><a href="#game">Play the Official Beers on Jarred&trade; Game!</a></li>
+              <li><a href="#pics">Xtra Pix</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class='hero text-center'>
+      <div class='hero-photo'>
+        <div class='hero-text-wrapper'>
+          <div class='hero-text'>
+            <h1>Welcome to Beers on Jarred&trade;!</h1>
+            <h3>The only spot on the web where you can put Beers on Jarred&trade;!</h3>
+          </div>
+        </div>
+        <img src='images/cool-guy.JPG' id='hero-image' alt='Cool guy Jarred!' />
+      </div>
+    </div>
+
+    <div class='info-block'>
+      <div class='container'>
+        <div id='about'>
+          <h2>Who is Jarred and what is this site?</h2>
+          <div class="row">
+            <div class='col-md-4'>
+              <h4>Getting up to speed</h4>
+              <p>Jarred's a pretty cool guy, as pictured. Sadly, Jarred makes slightly more money than I do and voiced this information in a text message. Due to said information it became clear that next time I was with Jarred, he would have to buy me and maybe the rest of us beers -- In other words, "beers on Jarred!"</p>
+            </div>
+
+            <div class="col-md-4">
+              <h4>A legend is born</h4>
+              <p>I told Jarred he needed to buy beers for me, and that I'd make a website to prove it. He told me <strong>Alex if you can make beersonjarred.com a real domain I'll pay for all your beers</strong> (proof below). So, here we are. All he asked is that I use the 5 photos that he attached, all of which you can find in the picture section.</p>
+            </div>
+
+            <div class="col-md-4">
+              <h4>Contribute</h4>
+              <p>You can contribute to Jarred's need to buy me beers by playing the official Beers on Jarred game down below. It's pretty easy - just click the button and poof! Another beer on Jarred!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div id='evidence'>
+      <div class='container'>
+        <div class="row">
+          <div class="col-md-6">
+            <h1>See for yourself!<span class='text-right'>&#8674;</span></h1>
+            <p>On the right we have fig. A, the only evidence we need to ensure that Jarred will indeed buy me beers. If the text DOES fit, you must acquit (me, of buying beers for myself).</p>
+
+          </div>
+          <div class="col-md-6 text-center">
+            <img class='text-message' src='images/evidence.PNG' />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id='game'>
+      <div class='text-center'>
+        <h2>Welcome to the official Beers on Jarred&trade; game!</h2>
+        <p><strong>How to play:</strong> Click the button below to put a beer on Jarred. The more beers you put on him, the more beers I'll claim that he owes me for making this site. Cheers! 🍻</p>
+        <div class='photo-container' id='drunk-jarred-container'>
+          <div id='beers-container' class='text-left'>
+            <div class='beer-column' id='beer-column-1'></div>
+            <div class='beer-column' id='beer-column-2'><span class='invisible'>🍺</span></div>
+            <div class='beer-column' id='beer-column-3'><span class='invisible'>🍺🍺</span></div>
+            <div class='beer-column' id='beer-column-4'><span class='invisible smaller'><p>.</p><p>.</p><p>.</p></span></div>
+            <div class='beer-column' id='beer-column-5'><span class='invisible'>🍺🍺🍺</span></div>
+            <div class='beer-column' id='beer-column-6'><span class='invisible'>🍺🍺🍺</span></div>
+            <div class='beer-column' id='beer-column-7'><span class='invisible'>🍺🍺🍺</span></div>
+            <div class='beer-column' id='beer-column-8'><span class='invisible smaller'><p>.</p><p>.</p><p>.</p></span></div>
+            <div class='beer-column' id='beer-column-9'><span class='invisible'>🍺🍺</span></div>
+            <div class='beer-column' id='beer-column-10'><span class='invisible smaller'>🍺<p>.</p></span></div>
+            <div class='beer-column' id='beer-column-11'><span class='invisible smaller'><p>.</p></span></div>
+          </div>
+          <img src='images/drunko.JPG' alt='Drunko Jarred!' />
+        </div>
+        <button class='btn' id='add-beer-btn'>Add a Beer</button>
+        <!-- <p>This button has been clicked <span id='global-number'>0</span> times total</p> -->
+        <p>You've contributed <span id='local-number'>0</span> beers on this visit</p>
+      </div>
+    </div>
+
+    <div id='pics'>
+      <div class='container'>
+        <img src='images/IMG_0754.JPG' />
+      </div>
+    </div>
+
+  </body>
+
+</html>

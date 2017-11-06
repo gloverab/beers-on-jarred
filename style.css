@@ -1,0 +1,86 @@
+/*.navbar-default {
+  background-color: #fce4ec;
+}
+
+.navbar-default .navbar-header a {
+  color: #5d4037;
+}
+
+.navbar-default .navbar-nav li a {
+  color: #5d4037;
+}*/
+
+.hero-photo {
+  position: relative;
+}
+
+.hero-text-wrapper {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 20%;
+}
+
+.hero-text {
+  margin: 0 auto;
+  width: 50%;
+  max-width: 550px;
+  border: 1px solid white;
+  color: white;
+  background-color: rgba(50, 60, 100, 0.3);
+  padding: 20px 50px;
+}
+
+img#hero-image {
+  width: 100%;
+}
+
+.text-message {
+  width: 60%;
+  position: relative;
+  margin: 0 auto;
+}
+
+.info-block {
+  background-color: black;
+  color: grey;
+}
+
+#evidence {
+  padding: 20px;
+}
+
+#game {
+  background-color: #b4b2eb;
+  padding: 1%;
+}
+
+.photo-container {
+  margin: 0 auto;
+  position: relative;
+  width: 270px;
+}
+
+#beers-container {
+  width: 200px;
+  position: absolute;
+  left: 49px;
+  bottom: 420px;
+  text-align: center;
+  margin: 0 auto;
+  display: inline-block;
+  z-index: 2;
+}
+
+span.smaller {
+  font-size: 7px;
+}
+
+.beer-column {
+  width: 14px;
+  display: inline-block;
+}
+
+.beer {
+  display: inline-block;
+}
